@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>index</title>
+		<meta name="description" content="">
+		<meta name="author" content="kentayamamoto">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.brown-orange.min.css" />
+		<script src="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.min.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		
+		<link href='assets/css/style.css' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<div class="demo-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		  <header class="mdl-layout__header">
+		    <div class="mdl-layout__header-row">
+		      <!-- Title -->
+		      <span class="mdl-layout-title mdl-cell--hide-desktop mdl-cell--hide-tablet">Spacehub</span>
+		      <span class="mdl-layout-title mdl-cell--hide-phone">Spacehub</span>
+		      <!-- Add spacer, to align navigation to the right -->
+		      <div class="mdl-layout-spacer"></div>
+		      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+	                  mdl-textfield--floating-label mdl-textfield--align-right">
+		        <label class="mdl-button mdl-js-button mdl-button--icon"
+		               for="fixed-header-drawer-exp">
+		          <i class="material-icons">search</i>
+		        </label>
+		        <div class="mdl-textfield__expandable-holder">
+		          <input class="mdl-textfield__input" type="text" name="sample"
+		                 id="fixed-header-drawer-exp" />
+		        </div>
+		      </div>
+		    </div>
+		  </header>
+		  <div class="mdl-layout__drawer">
+		    <span class="mdl-layout-title">Spacehub</span>
+		    <nav class="mdl-navigation">
+		      <a class="mdl-navigation__link" href="">使い方</a>
+		      <a class="mdl-navigation__link" href="">店舗経営者様はこちら</a>
+		      <a class="mdl-navigation__link" href="">About us</a>
+		    </nav>
+		  </div>
+		  <main class="mdl-layout__content">
+		  	<a name="top"></a>
+		  	<div id="maintitle" style="width: 100%; height: 70vh;" class="mdl-typography--text-center">
+		  		<div class="mdl-color-text--grey-50 slogan padding-top160">Let's Start Somethin'</div>
+		  		<hr>
+		  		<div class="mdl-color-text--grey-50 slogan-2">いつものカフェをあなたのアジトに</div>
+		  		<br>
+		  		<br>
+		  		<br>
+		  		<br>
+		  		<form action="#" style="max-width: 900px;margin: 0 auto;background-color: white;" class="mdl-shadow--3dp">
+				  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-select">
+				    <input class="mdl-textfield__input" type="text" id="select-station" />
+				    <label class="mdl-textfield__label" for="sample3">駅</label>
+				    <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="select-station">
+					  <li class="mdl-menu__item">渋谷</li>
+					  <li class="mdl-menu__item">新宿</li>
+					  <li class="mdl-menu__item">自由が丘</li>
+					  <li class="mdl-menu__item">横浜</li>
+					</ul>
+				  </div>
+				  <i class="material-icons" style="margin: 10px;">close</i>
+				  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-select">
+				    <input class="mdl-textfield__input" type="text" id="select-people" />
+				    <label class="mdl-textfield__label" for="sample3">規模</label>
+				    <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="select-people">
+					  <li class="mdl-menu__item">1人</li>
+					  <li class="mdl-menu__item">2〜3人</li>
+					  <li class="mdl-menu__item">4〜5人</li>
+					  <li class="mdl-menu__item">6人以上</li>
+					</ul>
+				  </div>
+				  <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
+				    検索
+				  </button>
+				  <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
+				  	<i class="material-icons">arrow_drop_down_circle</i>
+				    詳細検索
+				  </button>
+				</form>
+		  	</div>
+		  	<br><br>
+		  	<div class="mdl-grid" style="max-width: 1100px; margin: 0 auto;">
+		  		<div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--3dp">
+		  			<a href="detail.html">
+		  				<div class="mdl-card__media mdl-color-text--grey-50">
+			              <h3 class="padding-top145 margin-top0">Cafe A</h3>
+			              <i class="material-icons">place</i>
+			              <i class="material-icons">local_post_office</i>
+			              <i class="material-icons">local_printshop</i>
+			              <i class="material-icons">forum</i>
+		          		</div>
+		          	</a>
+		            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+		              <div>
+		                <strong>The Newist</strong>
+		                <span>2 days ago</span>
+		              </div>
+		            </div>
+		  		</div>
+		  		<div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--3dp">
+		  			<a href="detail.html">
+		  				<div class="mdl-card__media mdl-color-text--grey-50">
+			              <h3 class="padding-top145 margin-top0">Cafe A</h3>
+			              <i class="material-icons">place</i>
+			              <i class="material-icons">local_post_office</i>
+			              <i class="material-icons">local_printshop</i>
+			              <i class="material-icons">forum</i>
+		          		</div>
+		          	</a>
+		            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+		              <div>
+		                <strong>The Newist</strong>
+		                <span>2 days ago</span>
+		              </div>
+		            </div>
+		  		</div>
+		  		<div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--3dp">
+		  			<a href="detail.html">
+		  				<div class="mdl-card__media mdl-color-text--grey-50">
+			              <h3 class="padding-top145 margin-top0">Cafe A</h3>
+			              <i class="material-icons">place</i>
+			              <i class="material-icons">local_post_office</i>
+			              <i class="material-icons">local_printshop</i>
+			              <i class="material-icons">forum</i>
+		          		</div>
+		          	</a>
+		            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+		              <div>
+		                <strong>The Newist</strong>
+		                <span>2 days ago</span>
+		              </div>
+		            </div>
+		  		</div>
+		  	</div>
+		  	
+		  	<br><br>
+		  	<footer class="mdl-mega-footer">
+	          <div class="mdl-mega-footer--top-section">
+	          	<div class="mdl-mega-footer--left-section">
+		           	<p class="mdl-typography--font-light">Copyright 2015 primeNumber Inc. All right reserved</p>
+		        </div>
+	           	<div class="mdl-mega-footer--right-section">
+	              <a class="mdl-typography--font-light" href="#top">
+	                Back to Top
+	                <i class="material-icons">expand_less</i>
+	              </a>
+	            </div>
+	          </div>
+	        </footer>
+		  </main>
+		</div>
+		
+		<script src="assets/js/app.js"></script>
+	</body>
+</html>
