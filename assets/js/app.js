@@ -4,6 +4,11 @@ $(function() {
 		$(e.target).parents('.mdl-select').addClass('is-dirty').children('input').val(text);
 	});
 	
+	$('.send-btn').click(function() {
+		// postslack
+		
+	});
+	
 	$(document).ready(function() {
         $("#lightgallery").lightGallery();
     });

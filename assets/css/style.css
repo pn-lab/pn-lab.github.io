@@ -1,5 +1,6 @@
 body {
 	background-color: #edefed;
+	font-family: Meiryo;
 }
 
 #maintitle {
@@ -50,6 +51,12 @@ body {
 .margin-top0 {
 	margin-top: 0;
 }
+.width-30per {
+	width: 30%;
+}
+.width-100per {
+	width: 100%;
+}
 
 #lightgallery img {
 	display: none;
@@ -71,4 +78,10 @@ a {
 
 .mdl-layout__header a {
 	color: white;
+}
+
+@media (max-width: 640px) {
+	.modal__dialog {
+		margin-top: 120px;
+	}
 }
